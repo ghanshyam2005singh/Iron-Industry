@@ -1,8 +1,9 @@
 export default function AboutPage() {
-    return (
-      <div>
-        <h2 className="text-3xl font-semibold mb-2">About Iron Industry</h2>
-        <p className="text-gray-700">Iron Industry is a student-led tech initiative dedicated to building meaningful, impactful digital products. We started with AlumConnect — a secure alumni networking platform — and aim to grow into a hub of innovation for students and developers alike.</p>
-      </div>
-    );
-  }
+  return(
+<section className="min-h-screen flex flex-col items-center justify-center">
+      <h1 className="text-4xl font-bold mb-4 text-amber-300">Welcome to Iron Industry</h1>
+      <p className="text-lg text-gray-600 mb-6">Forging the future through innovation and purpose-built products like AlumConnect.</p>
+      <a href="/products" className="text-blue-600">Explore Our Products</a>
+      </section>
+)
+};
