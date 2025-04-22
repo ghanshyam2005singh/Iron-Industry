@@ -1,4 +1,5 @@
 import Products from './products/page';
+import Contact from './contact/page';
 
 export default function HomePage() {
   return (
@@ -11,6 +12,9 @@ export default function HomePage() {
       <section className="min-h-screen flex flex-col items-center justify-center">
         <Products />
         <p className="text-lg text-gray-600 mt-4">Check out our latest offerings!</p>
+      </section>
+      <section className="min-h-screen flex flex-col items-center justify-center">
+        <Contact/>
       </section>
     </section>
   );

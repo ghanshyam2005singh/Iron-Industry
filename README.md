@@ -65,6 +65,7 @@ Join our Discord, contribute to GitHub, or help us in docs, outreach, design, an
    ```bash
    npm install
    npm run dev
+   npm install three
    ```
 
 > Contributions to [AlumConnect](https://github.com/IronIndustry/AlumConnect) go in its own repo.
