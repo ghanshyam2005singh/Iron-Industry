@@ -1,13 +1,21 @@
-export default function ContactPage() {
-    return (
-      <div>
-        <h2 className="text-3xl font-semibold mb-4 text-white">Contact Us</h2>
-        <form className="space-y-4 bg-white text-black">
-          <input type="text" placeholder="Your Name" className="border rounded p-2 w-full" />
-          <input type="email" placeholder="Your Email" className="border rounded p-2 w-full" />
-          <textarea placeholder="Your Message" className="border rounded p-2 w-full" rows={5}></textarea>
-          <button type="submit" className="px-4 py-2 rounded">Send</button>
-        </form>
-      </div>
-    );
-  }
+'use client';
+import React from 'react';
+
+export default function Contact() {
+  return (
+    <div className="bg-[#101010] text-white w-full flex flex-col items-center justify-center rounded-2xl border border-zinc-800 shadow-[0_0_30px_-10px_#0ff] p-10 max-w-4xl">
+      <h2 className="text-3xl md:text-5xl font-extrabold font-mono bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent mb-6 text-center">
+        📬 Get in Touch
+      </h2>
+      <p className="text-lg md:text-xl text-zinc-400 text-center mb-4">
+        Let’s talk code, collab, or coffee. We’re just a ping away 💬.
+      </p>
+      <a
+        href="mailto:ironindustry@protonmail.com"
+        className="mt-4 inline-block text-lg font-bold text-amber-300 hover:text-white transition-colors"
+      >
+        📧 ironindustry@protonmail.com
+      </a>
+    </div>
+  );
+}
