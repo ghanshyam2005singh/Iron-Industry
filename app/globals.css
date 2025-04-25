@@ -1,4 +1,14 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* optional: smooth transition */
+html {
+  scroll-behavior: smooth;
+}
+
 
 :root {
   --background: #9EC6F3;
