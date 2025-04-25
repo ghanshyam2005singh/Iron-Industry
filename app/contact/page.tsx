@@ -14,7 +14,7 @@ export default function Contact() {
         href="mailto:ironindustry@protonmail.com"
         className="mt-4 inline-block text-lg font-bold text-amber-300 hover:text-white transition-colors"
       >
-        📧 ironindustry@protonmail.com
+        📧 outlercodie.com@gmail.com
       </a>
     </div>
   );
