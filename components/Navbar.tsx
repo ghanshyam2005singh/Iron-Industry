@@ -22,8 +22,14 @@ export function Navbar() {
         }
       `}
     >
+<<<<<<< HEAD
       <h1 className="text-2xl font-bold font-mono text-green-600 dark:text-emerald-400">
         Iron Industry
+=======
+      {/* Brand Title */}
+      <h1 className="text-2xl font-bold font-mono bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text">
+        <a href="/">Iron Industry</a>
+>>>>>>> 24dab70040222641f257d4f31998d079f5a24526
       </h1>
 
       <nav className="flex items-center space-x-8 ml-10 font-sans text-sm md:text-base">
