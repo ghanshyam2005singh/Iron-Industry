@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function AboutPage() {
   return (
-    <section className="min-h-screen bg-black flex flex-col items-center justify-center py-10 px-4 text-white">
+    <section id='about' className="min-h-screen bg-black flex flex-col items-center justify-center py-10 px-4 text-white">
       <div className="flex flex-col items-center justify-center bg-[#111] rounded-2xl border border-zinc-800 shadow-[0_0_40px_-10px_#00f0ff] p-8 max-w-4xl w-full">
         {/* Header */}
         <h1 className="text-4xl md:text-6xl font-extrabold font-mono bg-gradient-to-r from-amber-400 via-pink-500 to-violet-600 bg-clip-text text-transparent text-center tracking-tight">
