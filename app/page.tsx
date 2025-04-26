@@ -6,7 +6,7 @@ import Team from "./team/page";
 
 export default function HomePage() {
   return (
-    <section className="bg-black text-white px-4 pt-28 space-y-28">
+    <section className="bg-black text-white px-4 space-y-28">
       <section className="min-h-screen flex items-center justify-center">
         <About />
       </section>
