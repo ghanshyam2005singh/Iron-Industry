@@ -24,7 +24,6 @@ export function Navbar() {
         }
       `}
     >
-=======
       {/* Brand Title */}
       <h1 className="text-2xl font-bold font-mono bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text">
         <a href="/">Iron Industry</a>
