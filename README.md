@@ -64,8 +64,8 @@ Join our Discord, contribute to GitHub, or help us in docs, outreach, design, an
 3. Install dependencies & run dev server:
    ```bash
    npm install
-   npm run dev
    npm install tailwindcss postcss autoprefixer
+   npm run dev
 
    ```
 
