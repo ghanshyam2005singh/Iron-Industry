@@ -9,7 +9,7 @@ export default function Products() {
       </h2>
       <p className="text-lg md:text-xl text-zinc-400 text-center">
         We build tools that don’t just solve problems — they redefine possibilities.
-        <br />✨ Starting with <a href="https://iron-industry-mauve.vercel.app/" className="text-blue-400 font-semibold">AlumConnect</a>, the networking revolution for students & alumni.
+        <br />✨ Starting with <a href="https://iron-industry-mauve.vercel.app/" target="_blank" className="text-blue-400 font-semibold">AlumConnect</a>, the networking revolution for students & alumni.
       </p>
     </div>
   );
