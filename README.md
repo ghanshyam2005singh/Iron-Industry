@@ -65,6 +65,8 @@ Join our Discord, contribute to GitHub, or help us in docs, outreach, design, an
    ```bash
    npm install
    npm install tailwindcss postcss autoprefixer
+   npm install lucide-react
+   npm install react-icons
    npm run dev
 
    ```
