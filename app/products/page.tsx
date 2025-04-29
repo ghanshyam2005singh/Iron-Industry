@@ -6,8 +6,8 @@ export default function Products() {
     {
       name: "AlumConnect",
       description: "The networking revolution for students & alumni.",
-      link: "https://",
-      status: "Live Soon🚀",
+      link: "https://alum-connect-xi.vercel.app/",
+      status: "Live 🚀",
     },
     {
       name: "Homie-Finder",
