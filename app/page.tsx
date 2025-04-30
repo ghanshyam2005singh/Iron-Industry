@@ -4,7 +4,6 @@ import "./globals.css";
 import About from './about/page';
 import TeamSection from "./team/page";
 import TechStackSlider from './tech-stack/page';
-import { Metadata } from "next";
 
 // app/page.tsx
 export const metadata = {

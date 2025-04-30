@@ -140,7 +140,7 @@ export function Navbar() {
   target="_blank"
   className=""
 >
-  <img src="/assets/discord.png" alt="Discord" className="w-10 h-10 rounded-full border border-zinc-800 shadow-[0_0_30px_-10px_#00f0ff] transition-all duration-300 hover:shadow-[0_0_40px_-5px_#00f0ff] hover:scale-105" />
+  <Image src="/assets/discord.png" alt="Discord" className="w-10 h-10 rounded-full border border-zinc-800 shadow-[0_0_30px_-10px_#00f0ff] transition-all duration-300 hover:shadow-[0_0_40px_-5px_#00f0ff] hover:scale-105" />
 </Link>
 
 

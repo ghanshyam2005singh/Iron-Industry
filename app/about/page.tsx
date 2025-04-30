@@ -2,12 +2,6 @@
 import React from 'react';
 import Image from "next/image";
 
-// app/about/page.tsx
-export const metadata = {
-  title: "About Us — AlumConnect",
-  description: "Learn more about AlumConnect's mission to connect students and alumni.",
-};
-
 
 export default function AboutPage() {
   return (
