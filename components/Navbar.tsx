@@ -2,6 +2,7 @@
 import { useTheme } from '../app/hooks/useTheme';
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -52,6 +53,14 @@ export function Navbar() {
             {item.charAt(0).toUpperCase() + item.slice(1)}
           </Link>
         ))}
+<Link
+  href="https://discord.gg/DAVf6xUT"
+  target="_blank"
+  className=""
+>
+  <Image src="/assets/discord.png" alt="Discord" className="w-10 h-10 rounded-full border border-zinc-800 shadow-[0_0_30px_-10px_#00f0ff] transition-all duration-300 hover:shadow-[0_0_40px_-5px_#00f0ff] hover:scale-105" />
+</Link>
+
 
         {/* Toggle Button */}
         <button
@@ -110,6 +119,14 @@ export function Navbar() {
       {item.charAt(0).toUpperCase() + item.slice(1)}
     </Link>
   ))}
+<Link
+  href="https://discord.gg/DAVf6xUT"
+  target="_blank"
+  className=""
+>
+  <img src="/assets/discord.png" alt="Discord" className="w-10 h-10 rounded-full border border-zinc-800 shadow-[0_0_30px_-10px_#00f0ff] transition-all duration-300 hover:shadow-[0_0_40px_-5px_#00f0ff] hover:scale-105" />
+</Link>
+
 
   {/* Theme Toggle inside Mobile Menu */}
   <button
