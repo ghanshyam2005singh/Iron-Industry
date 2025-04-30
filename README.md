@@ -69,6 +69,9 @@ Join our Discord, contribute to GitHub, or help us in docs, outreach, design, an
    npm install react-icons
    npm run dev
 
+   SEO
+npm install next-sitemap
+
    ```
 
 > Contributions to [AlumConnect](https://github.com/IronIndustry/AlumConnect) go in its own repo.

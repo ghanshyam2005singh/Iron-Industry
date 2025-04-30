@@ -37,6 +37,22 @@ export function Navbar() {
           : 'bg-white/70 dark:bg-black/40 backdrop-blur-md'}
       `}
     >
+      <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "StartupOrganization",
+        name: "AlumConnect",
+        url: "https://alumconnect.com",
+        logo: "https://alumconnect.com/assets/logo.png",
+        sameAs: [
+          "https://github.com/ghanshyam2005singh",
+          "https://www.linkedin.com/in/ghanshyam-singh-b014232b2/",
+        ],
+      }),
+    }}
+  />
       {/* Brand Title */}
       <h1 className="text-2xl font-bold font-mono bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text">
         <Link href="/" onClick={handleLinkClick}>Iron Industry</Link>

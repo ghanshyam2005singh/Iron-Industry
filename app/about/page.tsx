@@ -2,6 +2,13 @@
 import React from 'react';
 import Image from "next/image";
 
+// app/about/page.tsx
+export const metadata = {
+  title: "About Us — AlumConnect",
+  description: "Learn more about AlumConnect's mission to connect students and alumni.",
+};
+
+
 export default function AboutPage() {
   return (
     <section id='about' className="bg-[rgb(223,222,222)] bg-[url('/assets/background.png')] bg-cover dark:bg-black dark:bg-none text-black dark:text-white transition-all duration-300 flex flex-col items-center justify-center py-10 px-4">
