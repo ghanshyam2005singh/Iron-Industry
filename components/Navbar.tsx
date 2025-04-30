@@ -37,22 +37,21 @@ export function Navbar() {
           : 'bg-white/70 dark:bg-black/40 backdrop-blur-md'}
       `}
     >
-      <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{
-      __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "StartupOrganization",
-        name: "AlumConnect",
-        url: "https://alumconnect.com",
-        logo: "https://alumconnect.com/assets/logo.png",
-        sameAs: [
-          "https://github.com/ghanshyam2005singh",
-          "https://www.linkedin.com/in/ghanshyam-singh-b014232b2/",
-        ],
-      }),
-    }}
-  />
+      <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{
+  __html: JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Iron Industry",
+    "url": "https://ironindustry.tech",
+    "logo": "https://ironindustry.tech/logo.png",
+    "sameAs": [
+      "https://linkedin.com/company/iron-industry",
+      "https://github.com/iron-industry"
+    ],
+    "description": "Iron Industry is a modern tech startup focused on innovative digital products like AlumConnect."
+  })
+}} />
+
       {/* Brand Title */}
       <h1 className="text-2xl font-bold font-mono bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text">
         <Link href="/" onClick={handleLinkClick}>Iron Industry</Link>

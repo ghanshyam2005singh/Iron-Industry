@@ -5,38 +5,36 @@ import About from './about/page';
 import TeamSection from "./team/page";
 import TechStackSlider from './tech-stack/page';
 
-// app/page.tsx
 export const metadata = {
-  title: "AlumConnect | Connecting Alumni & Students",
-  description: "A secure platform for college alumni and students to connect, share, and grow together.",
-  keywords: ["alumni", "students", "college", "networking", "AlumConnect"],
-  authors: [{ name: "Ghanshyam Singh", url: "https://github.com/ghanshyam2005singh" }],
-  creator: "Ghanshyam Singh",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
+  title: {
+    default: 'Iron Industry – Building Future Tech',
+    template: '%s | Iron Industry',
+  },
+  description: 'Iron Industry is a forward-thinking tech startup. Our flagship product, AlumConnect, helps colleges connect students and alumni seamlessly.',
+  keywords: ['Iron Industry', 'AlumConnect', 'tech startup', 'alumni network', 'college platform'],
+  authors: [{ name: 'Iron Industry Team', url: 'https://ironindustry.tech' }],
   openGraph: {
-    title: "AlumConnect | Connecting Alumni & Students",
-    description: "Stay connected with your alma mater. Find, message, and collaborate.",
-    url: "https://alumconnect.tech",
-    siteName: "AlumConnect",
+    title: 'Iron Industry',
+    description: 'Powering innovation through cutting-edge digital products like AlumConnect.',
+    url: 'https://ironindustry.tech',
+    siteName: 'Iron Industry',
     images: [
       {
-        url: "/assets/og-image.png",
+        url: 'https://ironindustry.tech/og-image.png',
         width: 1200,
         height: 630,
+        alt: 'Iron Industry Banner',
       },
     ],
-    locale: "en_US",
-    type: "website",
+    locale: 'en_US',
+    type: 'website',
   },
+  robots: 'index, follow',
   twitter: {
-    card: "summary_large_image",
-    title: "AlumConnect",
-    description: "Bridge the gap between alumni and students.",
-    images: ["/assets/og-image.png"],
-    creator: "@https_ghanshyam",
+    card: 'summary_large_image',
+    title: 'Iron Industry – Future-Ready Tech',
+    description: 'From AlumConnect to the next big thing. Explore the innovation at Iron Industry.',
+    images: ['https://ironindustry.tech/og-image.png'],
   },
 };
 
