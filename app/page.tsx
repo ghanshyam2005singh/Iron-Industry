@@ -10,12 +10,23 @@ export const metadata = {
     default: 'Iron Industry – Building Future Tech',
     template: '%s | Iron Industry',
   },
-  description: 'Iron Industry is a forward-thinking tech startup. Our flagship product, AlumConnect, helps colleges connect students and alumni seamlessly.',
-  keywords: ['Iron Industry', 'AlumConnect', 'tech startup', 'alumni network', 'college platform'],
+  description:
+    'Iron Industry is a cutting-edge tech startup revolutionizing software, SaaS, and alumni networking. Our flagship product, AlumConnect, helps colleges connect students and alumni securely. We deliver innovation in AI, cloud, and modern web development.',
+  keywords: [
+    'Iron-Industry', 'AlumConnect', 'tech startup', 'technology company', 'SaaS solutions',
+    'software development', 'AI solutions', 'machine learning', 'alumni platform',
+    'college alumni network', 'education technology', 'edtech startup', 'digital transformation',
+    'innovation hub', 'Next.js', 'TypeScript', 'Firebase', 'Vercel hosting', 'cloud infrastructure',
+    'modern web apps', 'scalable software', 'startup India', 'startup ecosystem', 'cloud SaaS',
+    'cutting-edge software', 'future technology', 'startup innovation', 'disruptive technology'
+  ],
   authors: [{ name: 'Iron Industry Team', url: 'https://ironindustry.tech' }],
+  creator: 'Iron Industry',
+  publisher: 'Iron Industry',
   openGraph: {
-    title: 'Iron Industry',
-    description: 'Powering innovation through cutting-edge digital products like AlumConnect.',
+    title: 'Iron Industry – Tech Startup Transforming Software and Innovation',
+    description:
+      'Join Iron Industry, a pioneering tech startup delivering cutting-edge SaaS solutions, AI software, and the AlumConnect alumni platform. Innovating for the future of technology.',
     url: 'https://ironindustry.tech',
     siteName: 'Iron Industry',
     images: [
@@ -29,13 +40,17 @@ export const metadata = {
     locale: 'en_US',
     type: 'website',
   },
-  robots: 'index, follow',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   twitter: {
     card: 'summary_large_image',
-    title: 'Iron Industry – Future-Ready Tech',
-    description: 'From AlumConnect to the next big thing. Explore the innovation at Iron Industry.',
+    title: 'Iron Industry – Building the Future of Tech',
+    description:
+      'Explore Iron Industry, the startup behind AlumConnect, transforming SaaS, AI, and alumni networking. Discover innovation at its finest.',
+    site: '@ironindustry',
+    creator: '@ironindustry',
     images: ['https://ironindustry.tech/og-image.png'],
   },
+  metadataBase: new URL('https://ironindustry.tech'),
 };
 
 
