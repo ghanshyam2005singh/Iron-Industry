@@ -6,7 +6,7 @@ export default function Products() {
     {
       name: "AlumConnect",
       description: "The networking revolution for students & alumni.",
-      link: "",
+      link: "https://alum-connect-xi.vercel.app/",
       status: "Live Soon 🚀",
     },
     {
