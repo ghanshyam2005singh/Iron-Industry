@@ -9,6 +9,7 @@ export default function TeamSection() {
       image: "/assets/team/founder.jpg", // Add a placeholder image
       description: "Visionary leader driving innovation and growth.",
     },
+    /*
     {
       name: "Ghanshyam Singh",
       role: "Chief Technical Officer (CTO)",
@@ -39,6 +40,7 @@ export default function TeamSection() {
       image: "/assets/team/devops.jpg",
       description: "Ensures seamless deployment and infrastructure management.",
     },
+    */
     
   ];
 
