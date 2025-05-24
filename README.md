@@ -126,4 +126,7 @@ Please give credit if you build on top of our work.
 2. Update team section, add more members
 3. in card add details about us like github insta
 
+---
+
+## V2 Theme
 https://linear.app/
