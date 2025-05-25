@@ -68,11 +68,9 @@ Join our Discord, contribute to GitHub, or help us in docs, outreach, design, an
    npm install lucide-react
    npm install react-icons
    npm install lucide-react
-npx shadcn-ui@latest init
+   npx shadcn-ui@latest init
 
    npm run dev
-
-   SEO
 npm install next-sitemap
 
    ```
