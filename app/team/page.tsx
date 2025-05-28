@@ -5,7 +5,7 @@ export default function TeamSection() {
   const teamMembers = [
     {
       name: "Ghanshyam Singh",
-      role: "Full Stack Developer",
+      role: "Developer",
       image: "/assets/team/cmo-2.jpg", // Add a placeholder image
       description: "Passionate developer with a knack for problem-solving.",
     },
@@ -34,7 +34,7 @@ export default function TeamSection() {
       image: "/assets/team/backend.jpg",
       description: "Builds scalable and robust backend systems.",
     },
-    */
+    
     {
       name: "Ghanshyam Singh",
       role: "DevOps Engineer",
@@ -42,13 +42,19 @@ export default function TeamSection() {
       description: "Ensures seamless deployment and infrastructure management.",
     },
     
-
+*/
 
   {
       name: "Ghanshyam Singh",
       role: "Designer",
       image: "/assets/team/founder.jpg",
       description: "Crafts intuitive and beautiful user experiences.",
+    },
+    {
+      name: "Ghanshyam Singh",
+      role: "Marketing Manager",
+      image: "/assets/team/cmo.jpg",
+      description: "Leads innovative campaigns to drive engagement.",
     },
       ];
   /*
