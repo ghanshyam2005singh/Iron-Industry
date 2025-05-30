@@ -19,7 +19,7 @@ export default function AboutPage() {
             src="/assets/social-network.png"
             alt="Iron Industry"
             width={800}
-            height={500}
+            height={800}
             className="rounded-xl mt-8 border border-zinc-700 shadow-2xl w-full max-w-[700px]"
             priority
           />
