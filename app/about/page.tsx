@@ -13,14 +13,17 @@ export default function AboutPage() {
         </h1>
 
         {/* GIF */}
-        <Image
-          src="/assets/social-network.gif"
-          alt="Iron Industry"
-          width={800}
-          height={500}
-          className="rounded-xl mt-8 border border-zinc-700 shadow-2xl w-full max-w-[700px]"
-          priority
-        />
+        <picture>
+          <source srcSet="/assets/social-network.gif" type="image/gif" />
+          <Image
+            src="/assets/social-network.png"
+            alt="Iron Industry"
+            width={800}
+            height={500}
+            className="rounded-xl mt-8 border border-zinc-700 shadow-2xl w-full max-w-[700px]"
+            priority
+          />
+        </picture>
       </div>
 
       {/* Cool Quote */}
