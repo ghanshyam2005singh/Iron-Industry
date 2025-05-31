@@ -5,7 +5,7 @@ export default function TeamSection() {
   const teamMembers = [
     {
       name: "Ghanshyam Singh",
-      role: "Developer",
+      role: "Founder",
       image: "/assets/team/cmo-2.jpg", // Add a placeholder image
       description: "Passionate developer with a knack for problem-solving.",
     },
@@ -46,7 +46,7 @@ export default function TeamSection() {
 
   {
       name: "Ghanshyam Singh",
-      role: "Designer",
+      role: "Developer",
       image: "/assets/team/founder.jpg",
       description: "Crafts intuitive and beautiful user experiences.",
     },
