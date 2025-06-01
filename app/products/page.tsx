@@ -6,7 +6,8 @@ export default function Products() {
     {
       name: "Alumconn",
       description: "The networking revolution for students & alumni.",
-      link: "https://alum-connect-xi.vercel.app/",
+      primaryLink: "https://alumconn.in",
+      fallbackLink: "https://alum-connect-xi.vercel.app/",
       status: "Live 🚀",
     },
     {
@@ -16,6 +17,29 @@ export default function Products() {
       status: "Coming Soon ✨",
     },
   ];
+
+    async function checkAndRedirect(primaryUrl: string, fallbackUrl: string) {
+    try {
+      // Timeout helper
+      const fetchWithTimeout = (url: string, ms: number) =>
+        new Promise((resolve, reject) => {
+          const timeoutId = setTimeout(() => reject(new Error('timeout')), ms);
+          fetch(url, { method: 'HEAD', mode: 'no-cors' })
+            .then(() => {
+              clearTimeout(timeoutId);
+              resolve(true);
+            })
+            .catch(reject);
+        });
+
+      await fetchWithTimeout(primaryUrl, 2000); // 2 seconds timeout
+      // If success, redirect primary
+      window.open(primaryUrl, '_blank');
+    } catch {
+      // If fetch fails or timeout, fallback
+      window.open(fallbackUrl, '_blank');
+    }
+  }
 
   {/* Find your ideal roommates easily! */}
 
@@ -43,14 +67,13 @@ export default function Products() {
                 <p className="text-black dark:text-zinc-400 mb-4">{product.description}</p>
               </div>
 
-              <a
-                href={product.link}
-                target="_blank"
-                className="mt-4 inline-block text-blue-400 font-semibold hover:underline"
-                rel="noopener noreferrer"
+              <button
+                onClick={() => checkAndRedirect(product.primaryLink ?? '', product.fallbackLink ?? '')}
+                className="mt-4 inline-block text-blue-400 font-semibold hover:underline cursor-pointer bg-transparent border-none p-0"
               >
                 {product.status}
-              </a>
+              </button>
+
             </div>
           ))}
         </div>
