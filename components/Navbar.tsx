@@ -135,7 +135,7 @@ export function Navbar() {
     </Link>
   ))}
 <Link
-  href="https://discord.gg/DAVf6xUT"
+  href="https://discord.gg/FFEZqzGwtG"
   target="_blank"
   className=""
 >
