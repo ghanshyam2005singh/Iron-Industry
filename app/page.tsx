@@ -11,9 +11,9 @@ export const metadata = {
     template: '%s | Iron Industry',
   },
   description:
-    'Iron Industry is a cutting-edge tech startup revolutionizing software, SaaS, and alumni networking. Our flagship product, AlumConnect, helps colleges connect students and alumni securely. We deliver innovation in AI, cloud, and modern web development.',
+    'Iron Industry is a cutting-edge tech startup revolutionizing software, SaaS, and alumni networking. Our flagship product, Alumconn, helps colleges connect students and alumni securely. We deliver innovation in AI, cloud, and modern web development.',
   keywords: [
-    'Iron-Industry', 'AlumConnect', 'tech startup', 'technology company', 'SaaS solutions',
+    'Iron-Industry', 'Alumconn', 'tech startup', 'technology company', 'SaaS solutions',
     'software development', 'AI solutions', 'machine learning', 'alumni platform',
     'college alumni network', 'education technology', 'edtech startup', 'digital transformation',
     'innovation hub', 'Next.js', 'TypeScript', 'Firebase', 'Vercel hosting', 'cloud infrastructure',
@@ -26,7 +26,7 @@ export const metadata = {
   openGraph: {
     title: 'Iron Industry – Tech Startup Transforming Software and Innovation',
     description:
-      'Join Iron Industry, a pioneering tech startup delivering cutting-edge SaaS solutions, AI software, and the AlumConnect alumni platform. Innovating for the future of technology.',
+      'Join Iron Industry, a pioneering tech startup delivering cutting-edge SaaS solutions, AI software, and the Alumconn alumni platform. Innovating for the future of technology.',
     url: 'https://ironindustry.tech',
     siteName: 'Iron Industry',
     images: [
@@ -45,7 +45,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Iron Industry – Building the Future of Tech',
     description:
-      'Explore Iron Industry, the startup behind AlumConnect, transforming SaaS, AI, and alumni networking. Discover innovation at its finest.',
+      'Explore Iron Industry, the startup behind Alumconn, transforming SaaS, AI, and alumni networking. Discover innovation at its finest.',
     site: '@ironindustry',
     creator: '@ironindustry',
     images: ['https://ironindustry.tech/og-image.png'],

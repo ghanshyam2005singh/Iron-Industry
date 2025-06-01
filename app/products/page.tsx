@@ -4,7 +4,7 @@ import React from 'react';
 export default function Products() {
   const products = [
     {
-      name: "AlumConnect",
+      name: "Alumconn",
       description: "The networking revolution for students & alumni.",
       link: "https://alum-connect-xi.vercel.app/",
       status: "Live 🚀",
