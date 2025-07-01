@@ -3,18 +3,23 @@ import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { ThemeProvider } from '../components/ThemeProvider';
 
-
 export const metadata = {
   title: {
     default: 'Iron Industry – Building Future Tech',
     template: '%s | Iron Industry',
   },
-  description: 'Iron Industry is a forward-thinking tech startup. Our flagship product, Alumconn, helps colleges connect students and alumni seamlessly.',
-  keywords: ['Iron Industry', 'Alumconn', 'tech startup', 'alumni network', 'college platform'],
+  description: 'Iron Industry is a cutting-edge tech startup revolutionizing software, SaaS, and alumni networking. Our flagship product, Alumconn, helps colleges connect students and alumni securely.',
+  keywords: [
+    'Iron Industry', 'Alumconn', 'tech startup', 'technology company', 'SaaS solutions',
+    'software development', 'AI solutions', 'alumni platform', 'college network',
+    'edtech startup', 'Next.js', 'TypeScript', 'modern web development'
+  ],
   authors: [{ name: 'Iron Industry Team', url: 'https://ironindustry.tech' }],
+  creator: 'Iron Industry',
+  publisher: 'Iron Industry',
   openGraph: {
-    title: 'Iron Industry',
-    description: 'Powering innovation through cutting-edge digital products like Alumconn.',
+    title: 'Iron Industry – Tech Startup Transforming Software and Innovation',
+    description: 'Join Iron Industry, a pioneering tech startup delivering cutting-edge SaaS solutions, AI software, and the Alumconn alumni platform.',
     url: 'https://ironindustry.tech',
     siteName: 'Iron Industry',
     images: [
@@ -28,48 +33,32 @@ export const metadata = {
     locale: 'en_US',
     type: 'website',
   },
-  robots: 'index, follow',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   twitter: {
     card: 'summary_large_image',
-    title: 'Iron Industry – Future-Ready Tech',
-    description: 'From Alumconn to the next big thing. Explore the innovation at Iron Industry.',
+    title: 'Iron Industry – Building the Future of Tech',
+    description: 'Explore Iron Industry, the startup behind Alumconn, transforming SaaS, AI, and alumni networking.',
+    site: '@ironindustry',
+    creator: '@ironindustry',
     images: ['https://ironindustry.tech/og-image.png'],
   },
+  metadataBase: new URL('https://ironindustry.tech'),
 };
-
-
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="manifest" href="/site.webmanifest" />
-      </head>
-      <body className="transition-colors duration-300">
+      <body className="antialiased">
         <ThemeProvider>
-          <Navbar />
-          <main className="pt-20 bg-[rgb(223,222,222)] bg-[url('/assets/background.png')] bg-cover dark:bg-black dark:bg-none text-black dark:text-white min-h-screen">
-            {children}
-          </main>
-          <Footer />
+          <div className="min-h-screen flex flex-col">
+            <Navbar />
+            <main className="flex-1">
+              {children}
+            </main>
+            <Footer />
+          </div>
         </ThemeProvider>
       </body>
-      <script dangerouslySetInnerHTML={{
-  __html: `
-    (function () {
-      const savedTheme = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
-        document.documentElement.classList.add('dark');
-      }
-    })();
-  `
-}} />
-
     </html>
-    
   );
 }
