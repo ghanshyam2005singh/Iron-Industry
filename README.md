@@ -68,11 +68,9 @@ Join our Discord, contribute to GitHub, or help us in docs, outreach, design, an
    npm install lucide-react
    npm install react-icons
    npm install lucide-react
-npx shadcn-ui@latest init
+   npx shadcn-ui@latest init
 
    npm run dev
-
-   SEO
 npm install next-sitemap
 
    ```
@@ -118,5 +116,3 @@ MIT License – Feel free to use, modify, and share.
 Please give credit if you build on top of our work.
 
 ---
-
-> _“Built in the open. Made for everyone. This is Iron.”_
