@@ -116,15 +116,3 @@ MIT License – Feel free to use, modify, and share.
 Please give credit if you build on top of our work.
 
 ---
-
-> _“Built in the open. Made for everyone. This is Iron.”_
-
-## Issue
-1. Logo and Favicon
-2. Update team section, add more members
-3. in card add details about us like github insta
-
----
-
-## V2 Theme
-https://linear.app/
