@@ -37,7 +37,7 @@ export default function Contact() {
       title: "Discord",
       description: "Join our community",
       action: "Chat with us",
-      link: "https://discord.gg/devrhylme",
+      link: "https://discord.gg/FFEZqzGwtG",
       color: "blue"
     },
     {
@@ -62,14 +62,14 @@ export default function Contact() {
       icon: <Linkedin className="w-5 h-5" />,
       name: "LinkedIn",
       username: "@ghanshyam-singh",
-      link: "https://www.linkedin.com/in/ghanshyam-singh-b014232b2/",
+      link: "https://www.linkedin.com/company/iron-industry-tech/",
       color: "blue"
     },
     {
       icon: <Twitter className="w-5 h-5" />,
       name: "Twitter",
       username: "@https_ghanshyam",
-      link: "https://x.com/https_ghanshyam",
+      link: "https://x.com/iron_industry",
       color: "sky"
     },
     {

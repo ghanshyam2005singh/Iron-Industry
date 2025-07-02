@@ -28,12 +28,12 @@ export function Footer() {
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
-      href: "https://www.linkedin.com/in/ghanshyam-singh-b014232b2/",
+      href: "https://www.linkedin.com/company/iron-industry-tech/",
       label: "LinkedIn"
     },
     {
       icon: <Twitter className="w-5 h-5" />,
-      href: "https://x.com/https_ghanshyam",
+      href: "https://x.com/iron_industry",
       label: "Twitter"
     },
     {
