@@ -70,7 +70,7 @@ export default function HomePage() {
               </div>
               <div className="text-center">
                 <div className="text-2xl md:text-3xl font-bold text-pink-400 mb-1">700+</div>
-                <div className="text-slate-400 text-xs md:text-sm">Contributors</div>
+                <div className="text-slate-400 text-xs md:text-sm">Contributions</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">10+</div>
