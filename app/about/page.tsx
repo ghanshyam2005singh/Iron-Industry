@@ -6,7 +6,7 @@ import { Code2, Zap, Users, Star, GitBranch, Coffee, Heart } from 'lucide-react'
 export default function AboutPage() {
   const stats = [
     { icon: <Code2 className="w-6 h-6" />, label: "Projects Built", value: "20+" },
-    { icon: <Users className="w-6 h-6" />, label: "Active Contributors", value: "700+" },
+    { icon: <Users className="w-6 h-6" />, label: "Active Contributions", value: "700+" },
     { icon: <Star className="w-6 h-6" />, label: "GitHub Stars", value: "10+" },
     { icon: <Coffee className="w-6 h-6" />, label: "Coffee Consumed", value: "∞" }
   ];
