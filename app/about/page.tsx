@@ -70,7 +70,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Stats Grid - Better mobile layout */}
+          {/* Stats Grid - Better mobile layout 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 mb-8 md:mb-16">
             {stats.map((stat, index) => (
               <div
@@ -85,6 +85,7 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
+          */}
         </div>
       </section>
 
