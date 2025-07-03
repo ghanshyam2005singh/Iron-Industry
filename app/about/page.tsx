@@ -1,15 +1,16 @@
 'use client';
 import React from 'react';
 import Image from "next/image";
-import { Code2, Zap, Users, Star, GitBranch, Coffee, Heart } from 'lucide-react';
+import {  Zap,  GitBranch,  Heart } from 'lucide-react';
 
 export default function AboutPage() {
+  {/* Code2, Users, Star,Coffee,
   const stats = [
     { icon: <Code2 className="w-6 h-6" />, label: "Projects Built", value: "20+" },
     { icon: <Users className="w-6 h-6" />, label: "Active Contributions", value: "700+" },
     { icon: <Star className="w-6 h-6" />, label: "GitHub Stars", value: "10+" },
     { icon: <Coffee className="w-6 h-6" />, label: "Coffee Consumed", value: "∞" }
-  ];
+  ]; */}
 
   const values = [
     {
