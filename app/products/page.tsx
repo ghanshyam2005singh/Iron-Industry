@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { ExternalLink, Rocket, Sparkles, Zap, Users, FileText, BookOpen, Heart, Github, Palette, Database, Shield, Cloud, Brain, Home } from 'lucide-react';
+import { ExternalLink, Rocket, Sparkles, Zap, Users, FileText, BookOpen, Heart, Github, Palette, Database, Shield } from 'lucide-react';
 
 export default function Products() {
   const products = [
