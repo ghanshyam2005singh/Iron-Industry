@@ -2,117 +2,189 @@
 
 **Forging the Future, One Product at a Time.**
 
-Iron Industry is a developer-first, community-driven product studio building powerful, open-source digital tools. Our mission is to empower real-world solutions through code, collaboration, and creativity.
+Iron Industry is a developer-first, community-driven product studio building powerful, scalable digital solutions. Our mission is to empower real-world problems through innovative code, seamless collaboration, and creative engineering.
 
-> **“We don’t just build apps. We build ecosystems.”**
-
----
-
-## 🌟 Current Focus: [AlumConnect](https://github.com/IronIndustry/AlumConnect)
-
-AlumConnect is our first flagship product — a secure, verified platform to connect college students and alumni.  
-It’s built for mentorship, guidance, and growth, starting with real use cases from Indian campuses.
-
-
-## 🔍 Vision
-
-- Build strong, scalable, and secure digital products under a unified ecosystem.
-- Foster a passionate open-source community through [DevRhylme Foundation](https://github.com/DEVRhylme-Foundation).
-- Empower developers, students, and communities — especially from underrepresented and rural regions.
+> **"We don't just build apps. We build ecosystems that matter."**
 
 ---
 
-## 🧱 Projects Under Iron Industry
+## 🚀 Our Products
 
-| Project        | Description                                     | Status     |
-| -------------- | ----------------------------------------------- | ---------- |
-| **AlumConnect** | Connect students and verified alumni           | 🟢 Active  |
-| IronVault      | Resource/document locker for students           | 🟡 Planned |
-| IronBoard      | Verified dev job board with trusted listings    | 🟡 Planned |
-| IronMeet       | Dev-focused event and meetup organizer          | 🟡 Planned |
-| ForgeSpace     | Collaborative dev environment for remote teams  | 🟡 Planned |
+### 🌟 **Featured: AlumConnect** 
+A secure platform rebuilding alumni relations through verified connections. Built with Next.js, TypeScript, and Prisma ORM, featuring NextAuth.js authentication, PostgreSQL database, and role-based dashboards.
+
+**🔗 Live:** [alumconn.in](https://alumconn.in) | [Backup](https://alum-connect-xi.vercel.app/)
 
 ---
 
-## 🤝 Built with DevRhylme
+## 🧱 Complete Product Ecosystem
 
-We collaborate openly using the [DevRhylme Foundation](https://www.devrhylme.org/).  
-Join our Discord, contribute to GitHub, or help us in docs, outreach, design, and testing.
-
-> 💬 Community: [DevRhylme Discord](https://discord.gg/your-devrhylme-invite-link)
-
----
-
-## 🛠️ Tech Stack
-
-- React.js / Next.js
-- Node.js / Express
-- MongoDB / Firebase
-- GitHub Actions / Vercel
-- Community tools: Discord, GitHub Projects
+| Project | Description | Tech Stack | Status |
+|---------|-------------|------------|--------|
+| **[AlumConnect](https://alumconn.in)** | Secure alumni-student networking platform | Next.js, TypeScript, Prisma, PostgreSQL | 🟢 **Live** |
+| **[Padh-le-Bhai](https://padh-le-bhai-one.vercel.app/)** | Student notes & assignment sharing platform | Next.js 15, Firebase, Firestore | 🟢 **Live** |
+| **[Dr. Serena Blake](https://dr-serena-blake-phi.vercel.app/)** | Professional therapist website with accessibility focus | Next.js 14, TypeScript, WCAG compliant | 🟢 **Live** |
+| **[CV-Slayer](https://github.com/ghanshyam2005singh/CV-Slayer)** | AI-powered resume reviewer with brutal honesty | React, Node.js, Google Gemini API | 🟡 **Working** |
+| **[Homie-Finder](https://github.com/ghanshyam2005singh/Homie-Finder)** | Smart roommate matching for students | Next.js 15, Firebase, Supabase | 🟣 **Coming Soon** |
 
 ---
 
-## 🚀 Getting Started
+## 🔍 Our Vision
 
-1. **Fork** this repo  
-2. **Clone** it locally:  
-   ```bash
-   git clone https://github.com/IronIndustry/IronIndustry.git
-   cd IronIndustry
-   ```
-3. Install dependencies & run dev server:
-   ```bash
-   npm install
-   npm install tailwindcss postcss autoprefixer
-   npm install lucide-react
-   npm install react-icons
-   npm install lucide-react
-   npx shadcn-ui@latest init
+- **Build Scalable Solutions**: Create robust, secure, and performant digital products
+- **Empower Through Technology**: Support developers, students, and underrepresented communities
+- **Real-World Impact**: Solve genuine problems with practical, user-focused solutions
 
-   npm run dev
+---
+
+## 🛠️ Tech Stack & Expertise
+
+### **Frontend Excellence**
+- Next.js (14, 15) with App Router
+- React.js with TypeScript
+- Tailwind CSS + ShadCN UI
+- Mobile-first responsive design
+
+### **Backend Mastery**
+- Node.js + Express
+- Prisma ORM + PostgreSQL
+- Firebase (Auth, Firestore, Storage)
+- Supabase integration
+
+### **AI & Advanced Features**
+- Google Gemini API integration
+- File processing (PDF/DOCX)
+- Real-time messaging
+- Authentication & authorization
+
+### **DevOps & Deployment**
+- Vercel deployment
+- GitHub Actions CI/CD
+- Rate limiting & security
+- Performance optimization
+
+---
+
+**🌐 Join Our Community:**
+- 💬 [Discord](https://discord.gg/FFEZqzGwtG)
+- 💼 [LinkedIn](https://www.linkedin.com/company/iron-industry-tech/)
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/IronIndustry/Iron-Industry.git
+cd Iron-Industry
+
+# Install dependencies
+npm install
+npm install tailwindcss postcss autoprefixer
+npm install lucide-react react-icons
 npm install next-sitemap
 
-   ```
+# Initialize ShadCN UI
+npx shadcn-ui@latest init
 
-> Contributions to [AlumConnect](https://github.com/IronIndustry/AlumConnect) go in its own repo.
+# Start development server
+npm run dev
+```
+
+Visit `http://localhost:3000` to see the magic happen! ✨
 
 ---
 
 ## 👥 Contributing
 
-We welcome all contributions!  
-**You can help with:**
+We welcome contributions from developers of all skill levels!
 
-- 🧠 Ideation & planning
-- 🖼️ UI/UX design (Figma)
-- 👨‍💻 Development (Frontend / Backend)
-- 📖 Documentation
-- 📣 Community outreach
+### **How You Can Help:**
+- 🧠 **Ideation**: Propose new features and improvements
+- 🎨 **Design**: UI/UX design in Figma
+- 💻 **Development**: Frontend, Backend, Full-stack
+- 📚 **Documentation**: Improve guides and README files
+- 🧪 **Testing**: Quality assurance and bug reports
+- 📢 **Community**: Outreach and community building
 
-Check our [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
-
----
-
-## 📣 Stay Connected
-
-- 💼 [LinkedIn - DevRhylme Foundation](https://www.linkedin.com/company/devrhylme1/posts/?feedView=all)
-- 🌐 [Website](https://www.devrhylme.org/)
-- 🧑‍💻 [GitHub Org](https://github.com/DEVRhylme-Foundation)
-- 💬 Discord: [Join Here](https://discord.gg/your-invite-link)
+**Getting Started:**
+1. Check our [Issues](https://github.com/ghanshyam2005singh/Iron-Industry/issues)
+2. Read [CONTRIBUTING.md](./CONTRIBUTING.md)
+3. Join our [Discord](https://discord.gg/FFEZqzGwtG)
+4. Submit your first PR!
 
 ---
 
-## ✨ Credits
+## 🌟 Featured Achievements
 
-Made with 💙 by [Ghanshyam Singh](https://github.com/ghanshyam2005singh) & the DevRhylme Community.  
-Special thanks to every contributor who shares this vision of open collaboration and impact.
+- ✅ **3 Live Products** serving real users
+- ✅ **100% Mobile Responsive** designs
+- ✅ **AI Integration** with Google Gemini
+- ✅ **Security-First** approach with authentication
+- ✅ **Performance Optimized** applications
+- ✅ **Accessibility Compliant** (WCAG standards)
+
+---
+
+## 📊 Project Stats
+
+```
+🚀 Products Launched: 3
+🔧 In Development: 1  
+📋 Planned: 1
+💻 Tech Stacks: 5+
+🌍 Users Served: Growing
+⭐ Community: Active
+```
+
+---
+
+## 🎯 Roadmap 2025
+
+- [ ] **Q1**: Complete CV-Slayer development
+- [ ] **Q2**: Launch Homie-Finder MVP
+- [ ] **Q3**: Scale AlumConnect to 10+ colleges
+- [ ] **Q4**: Launch IronVault document management
+
+---
+
+## 📞 Get In Touch
+
+**Ready to build something amazing together?**
+
+- 🌐 **Website**: [Visit our portfolio](https://iron-industry.tech/)
+- 💼 **LinkedIn**: [Iron-Industry](https://www.linkedin.com/company/iron-industry-tech/)
+- 📧 **Email**: Connect through our website
+- 💬 **Discord**: [Join our community](https://discord.gg/FFEZqzGwtG)
+- 🐙 **GitHub**: [Follow our work](https://github.com/ghanshyam2005singh)
+
+---
+
+## ✨ Credits & Acknowledgments
+
+**Crafted with 💜 by:**
+- [Ghanshyam Singh](https://github.com/ghanshyam2005singh) - Founder & Lead Developer
+
+**Special Thanks:**
+- Every contributor who shares our vision of open collaboration
+- The amazing open-source community
+- Early users and beta testers
 
 ---
 
 ## 📄 License
 
-MIT License – Feel free to use, modify, and share.  
-Please give credit if you build on top of our work.
+MIT License – Feel free to use, modify, and distribute.  
+**Please give credit** if you build upon our work. Attribution helps our community grow! 🙏
 
 ---
+
+<div align="center">
+
+**🔨 Building the future, one commit at a time.**
+
+[![GitHub stars](https://img.shields.io/github/stars/IronIndustry/Iron-Industry?style=social)](https://github.com/ghanshyam2005singh/Iron-Industry)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2)](https://discord.gg/FFEZqzGwtG)
+[![Website](https://img.shields.io/badge/Website-Visit%20Portfolio-purple)](https://iron-industry.tech/)
+
+</div>
