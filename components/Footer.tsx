@@ -14,9 +14,10 @@ export function Footer() {
   ];
 
   const products = [
-    { name: "AlumConnect", href: "https://alumconn.in" },
+    { name: "Alumconn", href: "https://alumconn.in" },
+    { name: "Padh-le-Bhai", href: "https://padh-le-bhai-one.vercel.app/" },
+    { name: "Dr. Serena Blake", href: "https://dr-serena-blake-phi.vercel.app/" },
     { name: "CV-Slayer", href: "#" },
-    { name: "Padh-le-Bhai", href: "#" },
     { name: "Homie-Finder", href: "#" },
   ];
 
