@@ -9,10 +9,10 @@ export default function TeamSection() {
   const teamMembers = [
     {
       name: "Ghanshyam Singh",
-      role: "Founder & Lead Developer",
+      role: "Backend Developer",
       image: "/assets/team/cmo-2.jpg",
       description: "Full-stack wizard who turns coffee into code. Passionate about building products that matter.",
-      skills: ["React", "Node.js", "Python", "DevOps", "AWS", "MongoDB", "TypeScript", "Docker", "Kubernetes", "GraphQL", "PostgreSQL", "Redis"],
+      skills: ["Express.js", "Node.js", "Python", "DevOps", "AWS", "MongoDB", "TypeScript", "Docker", "Kubernetes", "GraphQL", "PostgreSQL", "Redis"],
       location: "India",
       github: "ghanshyam2005singh",
       linkedin: "ghanshyam-singh-b014232b2",
@@ -39,10 +39,10 @@ export default function TeamSection() {
     },
     {
       name: "Ghanshyam Singh",
-      role: "Marketing Manager",
+      role: "All in one",
       image: "/assets/team/cmo.jpg",
       description: "Growth hacker and brand storyteller. Turns technical jargon into compelling narratives that resonate.",
-      skills: ["Growth Hacking", "Content Strategy", "SEO", "Analytics", "Social Media", "Email Marketing", "A/B Testing", "Google Ads", "Facebook Ads", "Copywriting", "Brand Design", "Conversion Optimization"],
+      skills: ["web3", "Blockchain", "SEO", "Analytics", "Cloud", "Email Marketing", "A/B Testing", "Copywriting", "Brand Design"],
       location: "India",
       github: "ghanshyam2005singh",
       linkedin: "ghanshyam-singh-b014232b2",
