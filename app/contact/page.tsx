@@ -61,14 +61,14 @@ export default function Contact() {
     {
       icon: <Linkedin className="w-5 h-5" />,
       name: "LinkedIn",
-      username: "@ghanshyam-singh",
+      username: "@Iron-Industry",
       link: "https://www.linkedin.com/company/iron-industry-tech/",
       color: "blue"
     },
     {
       icon: <Twitter className="w-5 h-5" />,
       name: "Twitter",
-      username: "@https_ghanshyam",
+      username: "@Iron-Industry",
       link: "https://x.com/iron_industry",
       color: "sky"
     },
@@ -76,7 +76,7 @@ export default function Contact() {
       icon: <Instagram className="w-5 h-5" />,
       name: "Instagram",
       username: "@iron.industry",
-      link: "https://instagram.com/iron.industry",
+      link: "https://instagram.com/outler_codie",
       color: "pink"
     }
   ];

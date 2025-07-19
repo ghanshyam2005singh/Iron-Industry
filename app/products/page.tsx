@@ -14,7 +14,7 @@ export default function Products() {
       icon: <Users className="w-8 h-8" />,
       tags: ["Next.js", "TypeScript", "Prisma", "NextAuth", "PostgreSQL"],
       techStack: ["Next.js", "TypeScript", "Prisma ORM", "NextAuth.js", "PostgreSQL", "Tailwind CSS", "ShadCN UI"],
-      keyFeatures: ["Secure Authentication", "Role-based Dashboards", "Real-time Messaging", "Verification System"],
+      keyFeatures: ["Secure Authentication", "College-based Dashboards", "Real-time Messaging", "Verification System"],
       featured: true
     },
        {
