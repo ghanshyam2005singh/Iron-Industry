@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/iron/:match*",
+      "destination": "https://alumconn.in/:match*"
+    }
+  ]
+}
