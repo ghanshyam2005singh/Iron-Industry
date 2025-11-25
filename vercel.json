@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/iron/:match*",
-      "destination": "https://alumconn.in/:match*"
+      "destination": "https://ghanshyamsingh-dev.vercel.app/:match*"
     }
   ]
 }
